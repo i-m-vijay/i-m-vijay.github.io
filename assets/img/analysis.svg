@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="98.659" height="102.345" viewBox="0 0 98.659 102.345">
+  <g id="Group_193" data-name="Group 193" transform="translate(-0.348 0.075)">
+    <g id="Ellipse_87" data-name="Ellipse 87" transform="translate(0.348 -0.075)" fill="none" stroke="#fcfcff" stroke-width="4">
+      <ellipse cx="37.5" cy="38" rx="37.5" ry="38" stroke="none"/>
+      <ellipse cx="37.5" cy="38" rx="35.5" ry="36" fill="none"/>
+    </g>
+    <line id="Line_84" data-name="Line 84" x2="21.605" y2="21.605" transform="translate(68.916 72.179)" fill="none" stroke="#fcfcff" stroke-linecap="round" stroke-width="12"/>
+    <path id="Path_518" data-name="Path 518" d="M3934.357,4223.55l17.045-42.006,44.635-11.322" transform="translate(-3915.879 -4146.01)" fill="none" stroke="#fcfcff" stroke-width="3"/>
+    <g id="Ellipse_88" data-name="Ellipse 88" transform="translate(8.348 75.925)" fill="none" stroke="#fcfcff" stroke-width="3">
+      <ellipse cx="8" cy="7" rx="8" ry="7" stroke="none"/>
+      <ellipse cx="8" cy="7" rx="6.5" ry="5.5" fill="none"/>
+    </g>
+    <g id="Ellipse_89" data-name="Ellipse 89" transform="translate(28.348 28.925)" fill="#fff" stroke="#fcfcff" stroke-width="1">
+      <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+      <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+    </g>
+    <g id="Ellipse_90" data-name="Ellipse 90" transform="translate(79.348 14.925)" fill="none" stroke="#fcfcff" stroke-width="3" style="mix-blend-mode: color-dodge;isolation: isolate">
+      <ellipse cx="8" cy="7.5" rx="8" ry="7.5" stroke="none"/>
+      <ellipse cx="8" cy="7.5" rx="6.5" ry="6" fill="none"/>
+    </g>
+    <g id="Ellipse_91" data-name="Ellipse 91" transform="translate(61.726 9.929) rotate(85)" fill="none" stroke="#fcfcff" stroke-linecap="round" stroke-width="3" stroke-dasharray="193">
+      <circle cx="26.021" cy="26.021" r="26.021" stroke="none"/>
+      <circle cx="26.021" cy="26.021" r="24.521" fill="none"/>
+    </g>
+  </g>
+</svg>
