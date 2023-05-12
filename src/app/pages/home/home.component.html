@@ -1,0 +1,515 @@
+<div class="appWrapper">
+	<div class="hero-section headerIntro">
+		<div class="container">
+			<div class="content text-center text-white header__title">
+				<h4 class="tag-line text-uppercase header__title__h1">WE ARE SPECIALIZED IN<br>DESIGN, DEVELOPMENT &
+					MAINTENANCE<br>OF WEB &
+					MOBILE APPLICATIONS.</h4>
+				<p class="mt-4 header__title__paragraph">We understand that the future comes hand in hand with
+					technology,<br>making it a key tool to
+					improve processes, communicate better, reduce<br> costs and streamline tasks.</p>
+			</div>
+			<div class="js-to-Scroll">
+				<a href="#main" class="scroll__icon">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 551.14 295.1">
+						<path
+							d="M545.4,5.6a19.47,19.47,0,0,0-27.53,0L275.74,248.43,33.13,5.6A19.48,19.48,0,0,0,5.6,33.17L261.49,289.3a19,19,0,0,0,13.77,5.7A19.82,19.82,0,0,0,289,289.3L544.93,33.17A19.11,19.11,0,0,0,545.4,5.6Z"
+							transform="translate(0.1 0.1)" />
+					</svg>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<main id="main">
+	<section class="home-slider-1 banner-background" data-aos="zoom-in-up" data-aos-duration="1000">
+		<div class="container">
+			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner position-relative">
+					<div class="carousel-item" *ngFor="let result of data; let i = index"
+						[ngClass]="{'active': i === 1}">
+						<div class="row">
+							<div class="col-md-4 pe-0 position-relative bannerTextCol">
+								<div class="content h-100 d-flex align-items-center">
+									<h4 class="heading position-relative">{{result.slideText }}</h4>
+									<div class="box box-1 position-absolute"></div>
+								</div>
+							</div>
+							<div class="col-md-8 ps-0">
+								<div class="image position-relative">
+									<img src={{result.img}} title={{result.title}} />
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+						data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+						data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+				<div class="carousel-indicators">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="d-inline-block">
+								<a href="#" class="d-flex special-link align-items-center">
+									<div class="pills-main ms-2 me-3">
+										<div class="pill first-pill"></div>
+										<div class="pill second-pill"></div>
+									</div>
+									<h5>Let us help you</h5>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-8">
+							<div class="row">
+								<div class="col-md-4">
+									<a data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+										aria-current="true" aria-label="Slide 1">
+										<div class="indicator-1">
+											<h6>Application Development</h6>
+											<p class="h-100">Entire development life-cycle for your custom application
+												needs</p>
+											<p class="horizontal-line"></p>
+										</div>
+									</a>
+								</div>
+								<div class="col-md-4">
+									<a data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+										aria-label="Slide 2">
+										<div class="indicator-2">
+											<h6>Enterprise Applications</h6>
+											<p class="h-100">We make sure to optimize your cost for effective growth,
+												enhance the productivity</p>
+											<p class="horizontal-line"></p>
+										</div>
+									</a>
+								</div>
+								<div class="col-md-4">
+									<a data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+										aria-label="Slide 3">
+										<div class="indicator-3">
+											<h6>Business Intelligence & EPM</h6>
+											<p class="h-100">We deal in Developer tool platform as a service (Paas),
+												Business Application Software as a Service (SaaS)</p>
+											<p class="horizontal-line"></p>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="domain-expertise">
+		<div class="header py-5">
+			<div class="container position-relative">
+				<div class="design-pills-main position-absolute d-flex align-items-center">
+					<div class="first-pill" data-aos="fade-up-left" data-aos-duration="1000"></div>
+					<div class="second-pill" data-aos="fade-up-left" data-aos-duration="1000"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-6" data-aos="fade-up-right" data-aos-duration="1000">
+						<h3 class="heading">At Brucode we provide the best web app solutions that help your business
+							stand out of the crowd.</h3>
+					</div>
+					<div class="col-md-6"></div>
+				</div>
+			</div>
+		</div>
+		<div class="content" data-aos="fade-up" data-aos-duration="1000">
+			<div class="container-fluid p-0">
+				<div class="row">
+					<div class="col-md-6 p-0">
+						<div class="left h-100">
+							<div class="image h-100">
+								<img class="h-100" src="assets/img/domain-expertise.jpg" alt="domain-expertise">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 p-0">
+						<div class="right h-100">
+							<div class="text">
+								<p class="mb-4">Our domain expertise includes CRM & ERP applications, Financial Portals,
+									HR Portals, ecommerce & real estate listing websites, enterprise applications, Auto
+									Portals, Healthcare solutions.
+								</p>
+								<p>Web development is one of our core areas of expertise. Our experience in Web
+									development includes working on server side technologies like <span>
+										Asp.Net, MVC, C#, Xamarin, PHP, Python, Ruby, Java to client side scripting
+										languages & frameworks such as HTML, CSS jQuery, Node.js, Angular.js,
+										Backbone.js, Bootstrap, Foundation, Cordova
+									</span> & many other related technologies.</p>
+								<p class="special-line">Web Based Apps, Portals & Enterprise</p>
+							</div>
+							<div class="owlSlider slider">
+								<owl-carousel-o [options]="customOptions">
+									<ng-template carouselSlide>
+										<div class="card  h-100">
+											<div class="card-body">
+												<div class="d-flex">
+													<h4 class="m-0 align-self-end flex-fill">POS Application</h4>
+													<svg xmlns="http://www.w3.org/2000/svg" width="67.923"
+														height="60.002" viewBox="0 0 67.923 60.002">
+														<defs>
+															<style>
+																.a1 {
+																	fill: #7d7ae4;
+																	fill-rule: evenodd;
+																}
+															</style>
+														</defs>
+														<g transform="translate(-1185.243 -253)">
+															<g transform="translate(1185.243 253)">
+																<path class="a1"
+																	d="M1524.946,0,1499.73,29.959,1524.946,60h14.711l-25.22-30.043L1539.657,0Z"
+																	transform="translate(-1499.73)" />
+																<path class="a1"
+																	d="M1758.276,0,1783.7,29.959,1758.276,60l-7.425-8.846,18.3-21.2L1750.91,8.75Z"
+																	transform="translate(-1715.782)" />
+															</g>
+														</g>
+													</svg>
+												</div>
+												<p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+													sed do eiusmod tempor
+													incididunt ut
+													labore et dolore magna aliqua. Ut enim ad </p>
+											</div>
+										</div>
+									</ng-template>
+									<ng-template carouselSlide>
+										<div class="card position-relative h-100">
+											<div class="card-body">
+												<div class="d-flex ">
+													<h4 class="m-0 align-self-end flex-fill">Orchard Lending Club </h4>
+													<svg xmlns="http://www.w3.org/2000/svg" width="67.923"
+														height="60.002" viewBox="0 0 67.923 60.002">
+														<defs>
+															<style>
+																.a2 {
+																	fill: #BA68C8;
+																	fill-rule: evenodd;
+																}
+															</style>
+														</defs>
+														<g transform="translate(-1185.243 -253)">
+															<g transform="translate(1185.243 253)">
+																<path class="a2"
+																	d="M1524.946,0,1499.73,29.959,1524.946,60h14.711l-25.22-30.043L1539.657,0Z"
+																	transform="translate(-1499.73)" />
+																<path class="a2"
+																	d="M1758.276,0,1783.7,29.959,1758.276,60l-7.425-8.846,18.3-21.2L1750.91,8.75Z"
+																	transform="translate(-1715.782)" />
+															</g>
+														</g>
+													</svg>
+												</div>
+												<p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+													sed do eiusmod tempor
+													incididunt ut
+													labore et dolore magna aliqua. Ut enim ad </p>
+											</div>
+										</div>
+									</ng-template>
+									<ng-template carouselSlide>
+										<div class="card h-100">
+											<div class="card-body">
+												<div class="d-flex">
+													<h4 class="m-0 align-self-end  flex-fill">SequelNet</h4>
+													<svg xmlns="http://www.w3.org/2000/svg" width="67.923"
+														height="60.002" viewBox="0 0 67.923 60.002">
+														<defs>
+															<style>
+																.a3 {
+																	fill: #5BB1FF;
+																	fill-rule: evenodd;
+																}
+															</style>
+														</defs>
+														<g transform="translate(-1185.243 -253)">
+															<g transform="translate(1185.243 253)">
+																<path class="a3"
+																	d="M1524.946,0,1499.73,29.959,1524.946,60h14.711l-25.22-30.043L1539.657,0Z"
+																	transform="translate(-1499.73)" />
+																<path class="a3"
+																	d="M1758.276,0,1783.7,29.959,1758.276,60l-7.425-8.846,18.3-21.2L1750.91,8.75Z"
+																	transform="translate(-1715.782)" />
+															</g>
+														</g>
+													</svg>
+												</div>
+												<p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+													sed do eiusmod tempor
+													incididunt ut
+													labore et dolore magna aliqua. Ut enim ad </p>
+											</div>
+										</div>
+									</ng-template>
+									<ng-template carouselSlide>
+										<div class="card position-relative h-100">
+											<div class="card-body">
+												<div class="d-flex">
+													<h4 class="m-0 align-self-end flex-fill">POS Application</h4>
+													<svg xmlns="http://www.w3.org/2000/svg" width="67.923"
+														height="60.002" viewBox="0 0 67.923 60.002">
+														<defs>
+															<style>
+																.a1 {
+																	fill: #7d7ae4;
+																	fill-rule: evenodd;
+																}
+															</style>
+														</defs>
+														<g transform="translate(-1185.243 -253)">
+															<g transform="translate(1185.243 253)">
+																<path class="a1"
+																	d="M1524.946,0,1499.73,29.959,1524.946,60h14.711l-25.22-30.043L1539.657,0Z"
+																	transform="translate(-1499.73)" />
+																<path class="a1"
+																	d="M1758.276,0,1783.7,29.959,1758.276,60l-7.425-8.846,18.3-21.2L1750.91,8.75Z"
+																	transform="translate(-1715.782)" />
+															</g>
+														</g>
+													</svg>
+												</div>
+												<p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+													sed do eiusmod tempor
+													incididunt ut
+													labore et dolore magna aliqua. Ut enim ad </p>
+											</div>
+										</div>
+									</ng-template>
+									<ng-template carouselSlide>
+										<div class="card h-100">
+											<div class="card-body">
+												<div class="d-flex ">
+													<h4 class="m-0 align-self-end flex-fill">Orchard Lending Club </h4>
+													<svg xmlns="http://www.w3.org/2000/svg" width="67.923"
+														height="60.002" viewBox="0 0 67.923 60.002">
+														<defs>
+															<style>
+																.a2 {
+																	fill: #BA68C8;
+																	fill-rule: evenodd;
+																}
+															</style>
+														</defs>
+														<g transform="translate(-1185.243 -253)">
+															<g transform="translate(1185.243 253)">
+																<path class="a2"
+																	d="M1524.946,0,1499.73,29.959,1524.946,60h14.711l-25.22-30.043L1539.657,0Z"
+																	transform="translate(-1499.73)" />
+																<path class="a2"
+																	d="M1758.276,0,1783.7,29.959,1758.276,60l-7.425-8.846,18.3-21.2L1750.91,8.75Z"
+																	transform="translate(-1715.782)" />
+															</g>
+														</g>
+													</svg>
+												</div>
+												<p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+													sed do eiusmod tempor
+													incididunt ut
+													labore et dolore magna aliqua. Ut enim ad </p>
+											</div>
+										</div>
+									</ng-template>
+								</owl-carousel-o>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="brucode-is-specialized">
+		<div class="container">
+			<div class="row  ">
+				<div class="col-md-7 py-5" data-aos="fade-up" data-aos-duration="1000">
+					<h3 class="heading">Brucode is specialized in Design, Development & Maintenance of Web & Moblie
+						Applications.</h3>
+				</div>
+				<div class="col-md-5 position-relative pt-5">
+					<div class="box position-absolute" data-aos="fade-down" data-aos-duration="1000">
+						<p class="text-white text-uppercase" data-aos="fade-in" data-aos-delay="1000" data-aos-duration="1000">BRUCODE ENDEAVORS TO USE THE RIGHT TECHNOLOGY ALONG WITH A GREAT TEAM OF PRO-ACTIVE THINKERS TO CREATE BE-SPOKE SOLUTIONS FOR OUR EACH AND EVERY CLIENT.</p>
+						<div class="d-inline-block">
+							<a href="#" class="d-flex special-link align-items-center">
+								<div class="pills-main ms-2 me-3">
+									<div class="pill first-pill"></div>
+									<div class="pill second-pill"></div>
+								</div>
+								<h5>Check our case studies</h5>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="image">
+						<img src="assets/img/brucode-is-specialized.jpg" alt="brucode-is-specialized">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="our-amazing-capabilites">
+		<div class="container-fluid p-0">
+			<div class="row">
+				<div class="col-md-5" data-aos="fade-right" data-aos-duration="500">
+					<div class="left h-100">
+						<div class="content">
+							<h3 class="heading mb-5">Our Amazing<br>Capabilities Include</h3>
+							<div class="d-flex">
+								<div class="vertical-line"></div>
+								<p class="ps-4 pe-5" data-aos="fade-right" data-aos-duration="1700"
+									data-aos-delay="1000" data-aos-offset="0">We understand that the future comes hand
+									in hand with technology, making it a key
+									tool to improve processes, communicate better, reduce costs and streamline tasks.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-7 p-0" data-aos="fade-left" data-aos-duration="500">
+					<div class="right h-100">
+						<a href="#" class="box box-1 coloured-box d-flex justify-content-center align-items-center">
+							<div>
+								<h6 class="text-uppercase">WEB<br>DEVELOPMENT</h6>
+								<div class="horizontal-line"></div>
+								<img src="assets/img/our-amazing-capabilites-1.svg" alt="web development">
+							</div>
+						</a>
+						<a href="#" class="box box-2 coloured-box d-flex justify-content-center align-items-center">
+							<div>
+								<h6 class="text-uppercase">MOBILE APPS<br>DEVELOPMENT</h6>
+								<div class="horizontal-line"></div>
+								<img src="assets/img/our-amazing-capabilites-2.svg" alt="mobile app development">
+							</div>
+						</a>
+						<div class="box box-3 transparent-box position-relative">
+							<div class="design-pills-main position-absolute d-flex align-items-center">
+								<div class="first-pill"></div>
+								<div class="second-pill"></div>
+							</div>
+						</div>
+						<div class="box box-4 transparent-box"></div>
+						<a href="#" class="box box-5 coloured-box d-flex justify-content-center align-items-center">
+							<div>
+								<h6 class="text-uppercase">UI/UX &<br>GRAPHICS DESIGN</h6>
+								<div class="horizontal-line"></div>
+								<img src="assets/img/our-amazing-capabilites-4.svg" alt="ui/ux">
+							</div>
+						</a>
+						<a href="#" class="box box-6 coloured-box d-flex justify-content-center align-items-center">
+							<div>
+								<h6 class="text-uppercase">CLOUD<br>COMPUTING SOLUTIONS</h6>
+								<div class="horizontal-line"></div>
+								<img src="assets/img/our-amazing-capabilites-4.svg" alt="cloud-computing">
+							</div>
+						</a>
+						<a href="#" class="box box-7 coloured-box d-flex justify-content-center align-items-center">
+							<div>
+								<h6 class="text-uppercase">IT SECURITY<br>SOLUTIONS</h6>
+								<div class="horizontal-line"></div>
+								<img src="assets/img/our-amazing-capabilites-5.svg" alt="It security solutions">
+							</div>
+						</a>
+						<div class="box box-8 transparent-box"></div>
+						<a href="#" class="box box-9 coloured-box d-flex justify-content-center align-items-center">
+							<div>
+								<h6 class="text-uppercase">DIGITAL<br>MARKETING</h6>
+								<div class="horizontal-line"></div>
+								<img src="assets/img/our-amazing-capabilites-6.svg" alt="digital marketing">
+							</div>
+						</a>
+						<a href="#" class="box box-10 coloured-box d-flex justify-content-center align-items-center">
+							<div>
+								<h6 class="text-uppercase">BUSINESS<br>CONSULTANCY SOLUTIONS</h6>
+								<div class="horizontal-line"></div>
+								<img src="assets/img/our-amazing-capabilites-7.svg"
+									alt="business consultancy solutions">
+							</div>
+						</a>
+						<a href="#" class="d-block box box-11 transparent-box special-box d-flex  align-items-center">
+							<div>
+								<h2>Project<br>handled</h2>
+								<i class="bi bi-arrow-right"></i>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="we-develop-business">
+		<div class="container-fluid p-0">
+			<div class="row">
+				<div class="col-md-6" data-aos="fade-right" data-aos-duration="500">
+					<div class="left d-flex align-items-center h-100">
+						<div class="content">
+							<h3 class="heading mb-5">We develop business applications quick, reliable & in low cost.
+							</h3>
+							<p class="mb-5">Being a company operating in Information Technology; we deal with the design
+								and development of software systems and solutions.</p>
+							<div class="d-inline-block">
+								<a href="#" class="d-flex special-link align-items-center">
+									<div class="pills-main ms-2 me-3">
+										<div class="pill first-pill"></div>
+										<div class="pill second-pill"></div>
+									</div>
+									<h5 class="text-capitalize">Client Speak</h5>
+								</a>
+							</div>
+							<div class="row mt-5">
+								<div class="col">
+									<div class="card facebook h-100">
+										<div class="card-body">
+											<p class="m-0">Rated<br><b>5/5</b><br> based on 17+ reviews
+												at<br><b>Facebook</b>.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col">
+									<div class="card google h-100">
+										<div class="card-body">
+											<p class="m-0">Rated<br><b>4.1/5</b><br>based on 50+ reviews
+												at<br><b>Google</b>.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col">
+									<div class="card ambition-box h-100">
+										<div class="card-body">
+											<p class="m-0">Rated<br><b>4.4/5</b><br>based on 23+ reviews
+												at<br><b>Ambition Box</b>.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6" data-aos="fade-left" data-aos-duration="500">
+					<div class="right">
+						<div class="need-help-form">
+							<h3 class="heading mb-5">{{title}}</h3>
+							<app-get-in-touch></app-get-in-touch>
+							<!-- <p>Form Value: {{ helpForm.value | json }}</p>
+							<p>Form Status: {{ helpForm.status }}</p>  -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>

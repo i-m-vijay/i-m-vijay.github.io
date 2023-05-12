@@ -1,0 +1,92 @@
+<div class="header-wrap">	
+	<!-- <div [style.display]="searchBtn ? 'block' : 'none'" id="myOverlay" class="overlay">
+		<span class="closebtn" (click)="closeSearch()" title="Close Overlay">×</span>
+		<div class="content"> 
+			<form class="search-form">
+				<input type="text" placeholder="Search.." name="search">
+				<button type="submit"><i class="bi bi-search"></i></button>
+			</form>
+		</div>
+	</div>  -->
+	<div class="sticky">
+		<header *ngIf="isAdvancedRoute()" [className]="showClass ? 'innerPage-header' : '' ">
+			<nav class="navbar navbar-expand-lg navbar-light ">
+				<div class="container-fluid">
+					<a class="navbar-brand white-logo" href="#"><img class="img-fluid" src="assets/img/logo.png" alt="comapany-logo"></a>
+					<a class="navbar-brand colored-logo" href="#"><img class="img-fluid" src="assets/img/logo2.png" alt="comapany-logo"></a>
+					<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+						aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar top-bar"></span>
+						<span class="icon-bar middle-bar"></span>
+						<span class="icon-bar bottom-bar"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarScroll">
+						<ul class="navbar-nav me-auto my-lg-0 navbar-nav-scroll">
+							<li class="nav-item" >
+								<a routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/" class="nav-link">Home</a> 
+							</li>
+							<li class="nav-item">
+								<a routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/technologies" class="nav-link">Technologies</a>
+							</li>
+							<li class="nav-item">
+								<a routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/our-work" class="nav-link">our work</a>
+							</li>
+							<li class="nav-item">
+								<a routerLinkActive="active" [routerLinkActiveOptions] = "{exact: true}" routerLink="/about" class="nav-link">about us</a>
+							</li>
+							<li class="nav-item">
+								<a routerLinkActive="active" [routerLinkActiveOptions] = "{exact: true}" routerLink="/careers" class="nav-link" href="#">careers</a>
+							</li>
+						</ul>
+
+						<div onmouseover="mouseHover()" onmouseout="mouseOut()" class="hoverable-btn d-flex align-items-center">
+							<a class="services-btn" role="button">
+								<i class="fas fa-bars"></i> services
+							</a>
+							<div class="dropdown-content" id="dropdown-content">
+								<div class="container">
+									<div class="row">
+										<div class="col-md-2 col-sm-4 col-sm-3 ps-0 pe-4 for-border border-end">
+											<div class="left">
+												<h2 class="heading">Our<br> Services</h2>
+												<p>Our team excels the complete suite of Web & Mobile Development services, accustomed
+													according to your project needs.</p>
+											</div>
+										</div>
+										<div class="col-md-10 col-sm-8 flex-fill">
+											<div class="links d-flex">
+												<ul class="list-group">
+													<li class="list-group-item"><a href="javascript:void(0);">Web Development</a></li>
+													<li class="list-group-item"><a href="javascript:void(0);">Mobile apps Development</a>
+													</li>
+													<li class="list-group-item"><a href="javascript:void(0);">UI/UX & Graphics design</a>
+													</li>
+													<li class="list-group-item"><a href="javascript:void(0);">Digital Marketing</a></li>
+												</ul>
+												<ul class="list-group"> 
+													<li class="list-group-item"><a href="javascript:void(0);">Cloud Computing Solutions</a>
+													</li>
+													<li class="list-group-item"><a href="javascript:void(0);">Business Consultancy Solutions</a></li>
+													<li class="list-group-item"><a href="javascript:void(0);">IT Security Solutions</a>
+													</li>
+												</ul>
+												<ul class="list-group special-list">
+													<li class="list-group-item"><a href="javascript:void(0);">Cybersecurity</a></li>
+													<li class="list-group-item"><a href="javascript:void(0);">Testing</a></li>
+													<li class="list-group-item"><a href="javascript:void(0);">Maintenance</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<a routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/contact" class="contact-btn me-3">contact us</a>
+						<!-- <button class="openBtn" (click)="openSearch()"><i class="bi bi-search"></i></button>  -->
+					</div>
+				</div>
+			</nav>
+		</header>
+	</div>
+</div>

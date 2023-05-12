@@ -1,0 +1,35 @@
+<form class="contact-form" [formGroup]="helpForm" (ngSubmit)="onSubmit()">
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <input id="name" type="text" formControlName = "name" class="form-control" placeholder="Name">
+            <span class="text-danger"
+                *ngIf="(helpFormControl.name.touched || submitted) && helpFormControl.name.errors?.required">
+                Name is required
+            </span>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <input id="email" type="email" formControlName = "email" class="form-control" placeholder="Email">
+            <span class="text-danger"
+            *ngIf="(helpFormControl.email.touched || submitted) && helpFormControl.email.errors?.required">
+                Email is required
+            </span>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <input id="phone" type="text" formControlName="phone" class="form-control" placeholder="Phone Number">
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col-md-6">
+            <textarea id="message" formControlName="message" class="form-control" placeholder="Message" rows="3"></textarea>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <button type="submit" class="rectangleBtn">Get in touch</button>
+        </div>
+    </div>
+</form>
